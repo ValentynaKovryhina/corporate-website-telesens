@@ -1,0 +1,56 @@
+@media (min-width: 576px) {
+
+  .ourTechnologies__iso ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .ourTechnologies__iso li {
+    width: 33%;
+  }
+
+  .ourTechnologies__iso li:nth-child(n+2) {
+    display: block;
+  }
+
+  .ourTechnologies__iso li:nth-child(n+4) {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  
+  .ourTechnologies__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ourTechnologies__android {
+    width: 400px;
+  }
+
+  .ourTechnologies__iso {
+    padding-top: 0;
+    border-top: none;
+    padding-left: 40px;
+    border-left: 1px solid #636363;
+  }
+
+  .ourTechnologies__iso li {
+    width: 25%;
+  }
+
+  .ourTechnologies__iso li:nth-child(n+4) {
+    display: block;
+  }
+
+  .ourTechnologies .nav {
+    display: none;
+  }
+
+}
+

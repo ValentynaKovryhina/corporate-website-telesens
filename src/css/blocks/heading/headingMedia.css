@@ -1,0 +1,44 @@
+@media (min-width: 1200px) {
+    .heading {
+    position: relative;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 28px;
+    padding-bottom: 55px;
+  }
+
+  .heading:before {
+    position: absolute;
+    content: "— наши услуги";
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #222222;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+  }
+
+  .heading__technologies:before {
+    content: "— технологии";
+  }
+
+  .heading__ourvalues:before {
+    content: "— Ценности";
+  }
+
+  .heading__ourclients:before {
+    content: "— клиенты";
+  }
+
+  .heading__reviews:before {
+    content: "— отзывы";
+  }
+
+  .heading__contactUs:before {
+    content: "— форма обратной связи";
+  }
+}

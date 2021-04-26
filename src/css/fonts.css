@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url("../assets/fonts/FiraSans-Regular.eot");
+    src: local("../assets/fonts/Fira Sans Regular"), local("FiraSans-Regular"),
+      url("../assets/fonts/FiraSans-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("../assets/fonts/FiraSans-Regular.woff2") format("woff2"),
+      url("../assets/fonts/FiraSans-Regular.woff") format("woff"),
+      url("../assets/fonts/FiraSans-Regular.ttf") format("truetype"),
+      url("../assets/fonts/FiraSans-Regular.svg#FiraSans-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-Regular.eot");
+    src: local("../assets/fonts/Open Sans Regular"), local("OpenSans-Regular"),
+      url("../assets/fonts/OpenSans-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+      url("../assets/fonts/OpenSans-Regular.woff") format("woff"),
+      url("../assets/fonts/OpenSans-Regular.ttf") format("truetype"),
+      url("../assets/fonts/OpenSans-Regular.svg#OpenSans-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-SemiBold.eot");
+    src: local("../assets/fonts/Open Sans SemiBold"), local("OpenSans-SemiBold"),
+      url("../assets/fonts/OpenSans-SemiBold.eot?#iefix")
+        format("embedded-opentype"),
+      url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"),
+      url("../assets/fonts/OpenSans-SemiBold.woff") format("woff"),
+      url("../assets/fonts/OpenSans-SemiBold.ttf") format("truetype"),
+      url("../assets/fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-SemiBoldItalic.eot");
+    src: local("../assets/fonts/Open Sans SemiBold Italic"),
+      local("OpenSans-SemiBoldItalic"),
+      url("../assets/fonts/OpenSans-SemiBoldItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("../assets/fonts/OpenSans-SemiBoldItalic.woff2") format("woff2"),
+      url("../assets/fonts/OpenSans-SemiBoldItalic.woff") format("woff"),
+      url("../assets/fonts/OpenSans-SemiBoldItalic.ttf") format("truetype"),
+      url("../assets/fonts/OpenSans-SemiBoldItalic.svg#OpenSans-SemiBoldItalic")
+        format("svg");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-Bold.eot");
+    src: local("../assets/fonts/Open Sans Bold"), local("OpenSans-Bold"),
+      url("../assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+      url("../assets/fonts/OpenSans-Bold.woff2") format("woff2"),
+      url("../assets/fonts/OpenSans-Bold.woff") format("woff"),
+      url("../assets/fonts/OpenSans-Bold.ttf") format("truetype"),
+      url("../assets/fonts/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Open Sans Condensed";
+    src: url("../assets/fonts/OpenSansCondensed-Bold.eot");
+    src: local("../assets/fonts/Open Sans Condensed Bold"),
+      local("OpenSansCondensed-Bold"),
+      url("../assets/fonts/OpenSansCondensed-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("../assets/fonts/OpenSansCondensed-Bold.woff2") format("woff2"),
+      url("../assets/fonts/OpenSansCondensed-Bold.woff") format("woff"),
+      url("../assets/fonts/OpenSansCondensed-Bold.ttf") format("truetype"),
+      url("../assets/fonts/OpenSansCondensed-Bold.svg#OpenSansCondensed-Bold")
+        format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  

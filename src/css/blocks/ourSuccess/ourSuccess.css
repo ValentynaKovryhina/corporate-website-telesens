@@ -1,0 +1,33 @@
+.ourSuccess {
+  background: url(../../../assets/img/bg_success.svg) center / cover;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.ourSuccess ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ourSuccess li {
+  width: 33%;
+  padding: 5px;
+}
+
+.ourSuccess p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.ourSuccess p:last-child {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-top: 16px;
+}

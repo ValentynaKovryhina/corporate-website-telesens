@@ -1,0 +1,21 @@
+
+.nav {
+  font-size: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(circle, #C4C4C4 5px, transparent 6px);
+}
+
+.nav .active {
+  background: radial-gradient(circle,  var(--main-color) 8px, transparent 9px);
+}

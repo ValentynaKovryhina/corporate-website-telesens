@@ -1,0 +1,8 @@
+@media (min-width: 1200px) {
+    .heading_small {
+    font-size: 22px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+}

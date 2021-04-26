@@ -1,0 +1,49 @@
+.promo {
+  background: url(../../../assets/img/background_promo.svg) center / cover;
+  text-align: center;
+}
+
+.promo h1 {
+  position: relative;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  color: #272727;
+  padding-bottom: 20px;
+}
+
+.promo h1:before {
+  position: absolute;
+  content: "";
+  width: 260px;
+  border-bottom: 2px solid var(--main-color);
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.promo p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #272727;
+  padding-bottom: 10px;
+}
+
+.promo a {
+  display: inline-block;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 11px;
+  background: var(--main-color);
+}
+
+.promo .playButton {
+  display: none;
+}

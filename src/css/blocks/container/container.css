@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  padding: 20px 5px 20px;
+}
+
+.ourSuccess__container {
+  padding: 0;
+  margin: 5px;
+}

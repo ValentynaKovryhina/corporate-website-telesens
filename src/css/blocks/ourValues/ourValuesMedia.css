@@ -1,0 +1,20 @@
+@media (min-width: 576px) {
+
+  .ourValues ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .ourValues li {
+    width: 48%;
+    box-sizing: border-box;
+  }
+
+  .ourValues li:nth-child(-n+2) {
+    padding-bottom: 38px;
+  }
+  
+}

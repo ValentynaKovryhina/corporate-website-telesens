@@ -1,0 +1,62 @@
+@media (min-width: 1200px) {
+  .promo {
+    text-align: left;
+    padding: 180px 130px 80px;
+}
+
+  .promo h1 {
+    font-size: 144px;
+    width: 620px;
+    padding-bottom: 70px;
+    line-height: 130px;
+  }
+
+  .promo h1:before {
+    width: 280px;
+    border-bottom: 2px solid var(--main-color);
+    bottom: 34px;
+    left: 0;
+    transform: translate(0);
+  }
+
+  .promo p {
+    font-size: 24px;
+    line-height: 30px;
+    width: 730px;
+    padding-bottom: 50px;
+  }
+
+  .promo a {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 50px;
+  }
+
+  .promo .playButton {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 5px solid var(--main-color);
+    border-radius: 50%;
+    top: 33%;
+    left: 71%;
+  }
+  
+  .promo .playButton:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 40px solid var(--main-color);
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-33%, -50%);
+  }
+
+}
+

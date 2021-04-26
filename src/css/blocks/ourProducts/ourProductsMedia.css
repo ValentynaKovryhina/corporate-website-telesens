@@ -1,0 +1,101 @@
+@media (min-width: 576px) {
+
+  .ourProducts>div>ul:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .ourProducts .ourProducts__service,
+  .ourProducts .ourProducts__allServices {
+    width: 50%;
+    padding: 116px 35px 38px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .ourProducts .ourProducts__allServices {
+    margin: 0;
+  }
+
+  .ourProducts .ourProducts__service {
+    position: relative;
+    display: flex;
+    max-width: 373px;
+    background: url(../../../assets/img/servise.svg) center / cover;
+    margin-left: 40px;
+  }
+
+  .ourProducts h3 {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #222222;
+    width: 100%;
+  }
+
+  .ourProducts .ourProducts__service a,
+  .ourProducts .ourProducts__qa a {
+    display: inline-block;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #222222;
+    opacity: 0.7;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  
+  .ourProducts .ourProducts__allServices>a {
+    margin-left: 102px;
+}
+
+  .ourProducts .ourProducts__qa {
+    display: flex;
+    max-width: 373px;
+    background: url(../../../assets/img/bg_qa.svg) center / cover;
+    margin-left: 40px;
+  }
+
+  .ourProducts .ourProducts__qa {
+    position: relative;
+    width: 50%;
+    padding: 40px 35px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .ourProducts .ourProducts__qa:hover:before,
+  .ourProducts .ourProducts__service:hover:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(69, 183, 129, .7);
+  }
+
+  .ourProducts .nav {
+    display: none;
+  }
+  
+}
+

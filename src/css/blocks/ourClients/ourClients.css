@@ -1,0 +1,48 @@
+.ourClients {
+  background: #F9F9F9;
+}
+
+.ourClients .ourClients__brands li:nth-child(n+2) {
+  display: none;
+}
+
+.ourClients a{
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 375px;
+  height: 160px;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+
+.ourClients a:before {
+  position: absolute;
+  content: "";
+  width: 269px;
+  height: 160px;
+  background: url('../../../assets/img/css_sprites.png') -269px -320px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ourClients .nokia:before {
+  background: url('../../../assets/img/css_sprites.png') -0 -160px;
+}
+
+.ourClients .deutshe:before {
+  background: url('../../../assets/img/css_sprites.png') -0 -0;
+}
+
+.ourClients .kyivstar:before {
+  background: url('../../../assets/img/css_sprites.png') -269px -0;
+}
+
+.ourClients .systems:before {
+  background: url('../../../assets/img/css_sprites.png') -269px -160px;
+}
+
+.ourClients .vega:before {
+  background: url('../../../assets/img/css_sprites.png') -0 -320px;
+}

@@ -1,0 +1,123 @@
+.ourTechnologies {
+  background: #F9F9F9;
+  padding-bottom: 70px;
+}
+
+.ourTechnologies__android {
+  padding-left: 30px;
+  padding-bottom: 22px;
+}
+
+.ourTechnologies__iso {
+  padding-top: 20px;
+  border-top: 1px solid #636363;
+}
+
+.ourTechnologies__android li {
+  padding-bottom: 12px;
+}
+
+.ourTechnologies__android a,
+.ourTechnologies__iso a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(34, 34, 34, .7);
+  padding: 6px 0;
+}
+
+.ourTechnologies__iso p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #222222;
+  opacity: 0.7;
+  padding: 0 10px 40px;
+  text-align: justify;
+}
+
+.ourTechnologies__iso li {
+  width: 100%;
+}
+
+.ourTechnologies__iso li:nth-child(n+2) {
+  display: none;
+}
+
+.ourTechnologies__iso a {
+  display: block;
+  position: relative;
+  padding: 210px 8px 8px;
+  width: 192px;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.ourTechnologies__iso a:after {
+  position: absolute;
+  content: "";
+  width: 192px;
+  height: 192px;
+  background: white;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.ourTechnologies__iso a:before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  width: 82px;
+  height: 150px;
+  background: url('../../../assets/img/css_sprites.png') -730px -0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.ourTechnologies__iso .kotlin:before {
+  width: 192px;
+  height: 192px;
+  background: url('../../../assets/img/css_sprites.png') -538px -0;
+}
+
+.ourTechnologies__iso .kotlin_1:before {
+  width: 132px;
+  height: 132px;
+  background: url('../../../assets/img/css_sprites.png') -416px -480px;
+}
+
+.ourTechnologies__iso .kotlin_2:before {
+  width: 132px;
+  height: 132px;
+  background: url('../../../assets/img/css_sprites.png') -548px -480px;
+}
+
+.ourTechnologies__iso .android:before {
+  width: 124px;
+  height: 146px;
+  background: url('../../../assets/img/css_sprites.png') -292px -480px;
+}
+
+.ourTechnologies__iso .crashlyticks:before {
+  width: 146px;
+  height: 146px;
+  background: url('../../../assets/img/css_sprites.png') -0 -480px;
+}
+
+.ourTechnologies__iso .stackoverflow:before {
+  width: 162px;
+  height: 162px;
+  background: url('../../../assets/img/css_sprites.png') -538px -192px;
+}
+
+.ourTechnologies__iso .webstorm:before {
+  width: 146px;
+  height: 146px;
+  background: url('../../../assets/img/css_sprites.png') -146px -480px;
+}

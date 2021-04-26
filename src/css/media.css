@@ -1,0 +1,14 @@
+@import "blocks/container/containerMedia.css";
+@import "blocks/logo/logoMedia.css";
+@import "blocks/heading/headingMedia.css";
+@import "blocks/heading_small/heading_smallMedia.css";
+@import "blocks/nav_arrow/nav_arrowMedia.css";
+@import "blocks/promo/promoMedia.css";
+@import "blocks/ourProducts/ourProductsMedia.css";
+@import "blocks/ourTechnologies/ourTechnologiesMedia.css";
+@import "blocks/ourSuccess/ourSuccessMedia.css";
+@import "blocks/ourValues/ourValuesMedia.css";
+@import "blocks/ourClients/ourClientsMedia.css";
+@import "blocks/reviews/reviewsMedia.css";
+@import "blocks/contactus/contactusMedia.css";
+@import "blocks/footer/footerMedia.css";

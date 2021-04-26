@@ -1,0 +1,28 @@
+@media (min-width: 576px) {
+
+  
+  .ourSuccess p {
+    font-size: 45px;
+  }
+
+  .ourSuccess p:last-child {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .ourSuccess {
+    padding: 140px 0;
+  }
+
+  .ourSuccess p {
+    font-size: 72px;
+  }
+
+  .ourSuccess p:last-child {
+    font-size: 22px;
+  }
+
+}
+

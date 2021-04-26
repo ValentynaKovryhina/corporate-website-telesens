@@ -1,0 +1,23 @@
+.heading_small {
+  display: inline-block;
+  position: relative;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #222222;
+  text-align: center;
+  margin: 0 auto 24px;
+}
+
+.heading_small__deco:before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: var(--main-color);
+  top: 50%;
+  left: 0;
+  transform: translate(-24px, -50%);
+
+}
